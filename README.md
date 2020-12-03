@@ -1,4 +1,4 @@
-# graduation-Tasks
+# GraduationTasks
 
 　# グループ　（メンバー　　國吉輝・波平健吾）
 
