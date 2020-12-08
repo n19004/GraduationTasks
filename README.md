@@ -1,6 +1,8 @@
 # GraduationTasks
 
 　# グループ　（メンバー　　國吉輝・波平健吾）
+ # Google meet
+  https://meet.google.com/skb-qqpk-vnk?pli=1&authuser=0
  
  # プロダクト
  
