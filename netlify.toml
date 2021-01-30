@@ -1,4 +1,4 @@
 [build]
   base    = "sotuken"
-  publish = "sotuken/build"
+  publish = "build"
   command = "npm build"
