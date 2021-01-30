@@ -1,0 +1,4 @@
+[build]
+  base    = "sotuken"
+  publish = "sotuken/build"
+  command = "yarn build"
