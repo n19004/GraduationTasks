@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content:  space-between;
   width: 300px;
-  margin: 70px auto 20px;
+  margin: 0px auto 20px;
 }
 
 .buttonSize {
