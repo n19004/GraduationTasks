@@ -184,21 +184,21 @@ class Kakuningamen extends Component {
         {
           (this.props.location.state.counter <= 0)
           ? <div></div>
-          : <div className='kakuningazou'><img src={tikin} className='imageSize' /><p className='suujisize'>チキン</p>
+          : <div className='kakuningazou'><img src={tikin} alt='img' className='imageSize' /><p className='suujisize'>チキン</p>
             <p className='suujisize'>{this.props.location.state.counter}個</p></div>
         }
       
        {
          (this.props.location.state.counter2 <= 0)
          ? <div></div>
-         : <div className='kakuningazou'><img src={corokke} className='imageSize' /><p className='suujisize'>コロッケ</p>
+         : <div className='kakuningazou'><img src={corokke} alt='img' className='imageSize' /><p className='suujisize'>コロッケ</p>
            <p className='suujisize'>{this.props.location.state.counter2}個</p></div>
        }
 
        {
          (this.props.location.state.counter3 <= 0)
          ? <div></div>
-         : <div className='kakuningazou'><img src={karaage} className='imageSize' /><p className='suujisize'>唐揚げ</p>
+         : <div className='kakuningazou'><img src={karaage} alt='img' className='imageSize' /><p className='suujisize'>唐揚げ</p>
            <p className='suujisize'>{this.props.location.state.counter3}個</p></div>
        }
 
@@ -233,21 +233,21 @@ class Kessaigamen extends Component {
         {
           (this.props.location.state.counter <= 0)
           ? <div></div>
-          : <div className='kakuningazou'><img src={tikin} className='imageSize' /><p className='suujisize'>チキン</p>
+          : <div className='kakuningazou'><img src={tikin} alt='img' className='imageSize' /><p className='suujisize'>チキン</p>
             <p className='suujisize'>{this.props.location.state.counter}個</p></div>
         }
       
        {
          (this.props.location.state.counter2 <= 0)
          ? <div></div>
-         : <div className='kakuningazou'><img src={corokke} className='imageSize' /><p className='suujisize'>コロッケ</p>
+         : <div className='kakuningazou'><img src={corokke} alt='img' className='imageSize' /><p className='suujisize'>コロッケ</p>
            <p className='suujisize'>{this.props.location.state.counter2}個</p></div>
        }
 
        {
          (this.props.location.state.counter3 <= 0)
          ? <div></div>
-         : <div className='kakuningazou'><img src={karaage} className='imageSize' /><p className='suujisize'>唐揚げ</p>
+         : <div className='kakuningazou'><img src={karaage} alt='img' className='imageSize' /><p className='suujisize'>唐揚げ</p>
            <p className='suujisize'>{this.props.location.state.counter3}個</p></div>
        }
 
@@ -328,7 +328,7 @@ class App extends Component {
       <div className='container'>
       <button className='buttonSize'>
       <div>
-        <img src={tikin} className='imageSize' />
+        <img src={tikin} alt='img' className='imageSize' />
         <p className='namae'>チキン</p>
         <div><p className='suujisize'>{this.state.counter}</p></div>
         <button
@@ -340,7 +340,7 @@ class App extends Component {
 
       <button className='buttonSize'>
       <div>
-        <img src={corokke} className='imageSize' />
+        <img src={corokke} alt='img' className='imageSize' />
         <p className='namae'>コロッケ</p>
         <div><p className='suujisize'>{this.state.counter2}</p></div>
         <button
@@ -352,7 +352,7 @@ class App extends Component {
 
       <button className='buttonSize'>
       <div>
-        <img src={karaage} className='imageSize' />
+        <img src={karaage} alt='img' className='imageSize' />
         <p className='namae'>唐揚げ</p>
         <div><p className='suujisize'>{this.state.counter3}</p></div>
         <button
